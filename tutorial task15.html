@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subject Feedback Form</title>
+</head>
+<body>
+
+    <h1>Subject Feedback Form</h1>
+
+    <form>
+
+        <label>Student Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Roll Number:</label><br>
+        <input type="text" name="rollno"><br><br>
+
+        <label>Subject:</label><br>
+        <select name="subject">
+            <option>DBMS</option>
+            <option>Java Programming</option>
+            <option>Web Technologies</option>
+            <option>Computer Networks</option>
+            <option>Operating Systems</option>
+        </select><br><br>
+
+        <label>How do you rate this subject?</label><br>
+        <input type="radio" name="rating" value="Excellent"> Excellent<br>
+        <input type="radio" name="rating" value="Good"> Good<br>
+        <input type="radio" name="rating" value="Average"> Average<br>
+        <input type="radio" name="rating" value="Poor"> Poor<br><br>
+
+        <label>What did you like about the subject?</label><br>
+        <input type="checkbox" name="aspect" value="Theory"> Theory<br>
+        <input type="checkbox" name="aspect" value="Practical Sessions"> Practical Sessions<br>
+        <input type="checkbox" name="aspect" value="Assignments"> Assignments<br>
+        <input type="checkbox" name="aspect" value="Teaching Method"> Teaching Method<br><br>
+
+        <label>Suggestions for Improvement:</label><br>
+        <textarea rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
