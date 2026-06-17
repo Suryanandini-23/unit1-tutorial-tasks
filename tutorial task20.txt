@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Information Portal</title>
+</head>
+<body>
+
+    <h1>Book Information Portal</h1>
+
+    <img src="webtechbook.jpg" alt="Web Technologies Black Book Cover" width="200">
+
+    <h2>Book Title</h2>
+    <p>Web Technologies: Black Book</p>
+
+    <h2>Author</h2>
+    <p>Kogent Learning Solutions Inc.</p>
+
+    <h2>Publisher</h2>
+    <p>Dreamtech Press</p>
+
+    <h2>Category</h2>
+    <p>Web Development and Programming</p>
+
+    <h2>Summary</h2>
+    <p>
+        Web Technologies: Black Book is a comprehensive guide for learning
+        web development technologies. The book covers HTML, CSS, JavaScript,
+        XML, PHP, and other web programming concepts. It provides practical
+        examples and applications that help students understand website
+        design and development. The book is widely used by engineering
+        students and web developers as a reference for modern web technologies.
+    </p>
+
+</body>
+</html>
